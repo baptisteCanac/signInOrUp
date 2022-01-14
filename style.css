@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+body{
+	font-family: "Poppins", sans-serif;
+}
+.cardContainer{
+	background: #201a30;
+	border-radius: 50px;
+	width: 700px;
+	height: 900px;
+}
+.signUpCardContainer{
+	height: 1250px;
+}
+.cursorPointer{
+	cursor: pointer;
+}
+#app{
+	display: flex;
+	justify-content: center;
+}
+.titleContainer{
+	padding-top: 188px;
+	padding-left: 10%;
+	font-weight: bold;
+	font-size: 64px;
+    line-height: 96px;
+    color: #fff;
+}
+.subTitleContainer{
+	padding-left: 10%;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	color: #fff;
+}
+input[type="text"], input[type="password"]{
+	background: #38304C;
+	border-radius: 50px;
+	width: 574px;
+	height: 66px;
+	outline: none;
+	border: 2px solid transparent;
+	margin-top: 60px;
+	margin-left: 10%;
+	color: #fff;
+	font-size: 2em;
+}
+.mailInput::placeholder, .passwordInput::placeholder, .fullNameInput::placeholder{
+	color: #908C9C;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+	padding-left: 5%;
+	position: absolute;
+	top: 20px;
+}
+input::placeholder{
+	text-transform: uppercase;
+}
+.passwordInput:focus::placeholder, .mailInput:focus::placeholder, .fullNameInput:focus::placeholder{
+	animation-name: placeholderAnimation;
+	animation-duration: 2s;
+	top: 1px;
+}
+.centerSubmitButton{
+	display: flex;
+	justify-content: center;
+}
+.submitInput{
+	width: 287px;
+	height: 84px;
+	background: #0EF4E3;
+	border-radius: 50px;
+	border: 2px solid transparent;
+	margin-top: 60px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+}
+.forgotPasswordContainer{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+	color: #0EF4E3;
+}
+.dontAccountContainer{
+	padding-top: 60px;
+	padding-left: 10%;
+}
+.dontAccountContainerSignup{
+	padding-left: 10%;
+	padding-top: 20px;
+}
+.sentenceDont{
+	color: #908C9C;
+	display: inline;
+}
+.singup{
+	color: #0EF4E3;
+	display: inline;
+	cursor: pointer;
+}
+.backContainer{
+	color: #fff;
+	font-size: 144px;
+	line-height: 216px;
+	padding-left: 10%;
+}
+.createAccountTitleContainer{
+	color: #fff;
+	font-size: 64px;
+	line-height: 96px;
+	padding-left: 10%;
+}
+.createAccountSubtitle{
+	font-size: 35px;
+	line-height: 52px;
+	color: #908C9C;
+	padding-left: 10%;
+}
